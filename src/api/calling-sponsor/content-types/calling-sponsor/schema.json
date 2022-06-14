@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calling_sponsors",
+  "info": {
+    "singularName": "calling-sponsor",
+    "pluralName": "calling-sponsors",
+    "displayName": "Calling Sponsor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "company": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    }
+  }
+}
